@@ -8,4 +8,4 @@ while True:
 city = input('Where do you live? ' )
 
 
-print(f'Hello, {name}! Your age is {age}. You live in {city}')
+print(f'Hello, {name}! \nYour age is {age}. \nYou live in {city}')
