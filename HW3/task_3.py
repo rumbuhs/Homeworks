@@ -5,6 +5,6 @@ def swap (a, b):
     return (a, b)
 
 while True:
-    a = input('Please enter your 1-st value: ', )
-    b = input('Please enter your 2-nd value: ', )
+    a = input('Please, enter your 1-st value: ', )
+    b = input('Please, enter your 2-nd value: ', )
     swap(a, b)
