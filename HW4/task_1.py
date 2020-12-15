@@ -13,7 +13,7 @@ while num > 1:
 print(factorial)
 
 # using for
-number = int(input('Please, non-negative integer: ', ))
+number = int(input('Please, enter non-negative integer: ', ))
 fac = 1
 
 for i in range(2, number+1):
