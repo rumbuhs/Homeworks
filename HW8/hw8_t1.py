@@ -15,12 +15,12 @@ class Rectangle(Polygon):
     def __init__(self):
         super().__init__(2)
 
-    def findArea(self):
+    def findSquare(self):
         a,b = self.sides
-        area = (a*b)
-        return area
+        square = (a*b)
+        return square
 
 a = Rectangle()
 a.inputSides()
 a.dispSides()
-a.findArea()
+a.findSquare()
